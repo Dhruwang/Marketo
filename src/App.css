@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #191a1c;
+}
 
 
 
@@ -60,7 +65,7 @@
   background-size: cover;
 }
 .title{
-  font-size: 10rem;
+  font-size: 7rem;
 }
 .container{
   color: rgb(82, 81, 81);
@@ -77,3 +82,72 @@
   
 }
 /* Home Page CSS ends  */
+
+/* Services Page CSS starts  */
+
+.servicesMain p{
+  color: rgb(192, 192, 192);
+  margin-bottom: 0;
+}
+.OutlineTitle{
+  color: transparent;
+	font-size: 60px;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(192, 192, 192);
+
+}
+.serviceCard{
+  border: 1px solid white;
+  margin: 1rem;
+  padding:  1.5rem 3rem;
+  width: 20rem;
+  transition: all .2s ease-in-out
+}
+.serviceCard h2{
+  color: white;
+  font-family: RobotoBold , serif;
+  font-size: 35px;
+}
+.serviceCard i{
+  color: white;
+  font-size: 2.5rem;
+  
+}
+.serviceCard:hover {
+  background-color:white;
+  transform: scale(1.1);
+}
+.serviceCard:hover > * {
+  color: #191a1c;
+}
+@media only screen and (max-width: 990px) {
+  .serviceCard {
+    width: 75vw;
+  }
+}
+/* Services Page CSS ends  */
+
+/* Projects Page CSS starts  */
+.projects{
+  height: 100vh;
+}
+.slider{
+
+  height: 75vh;
+  width: 60vw;
+  border: 2px solid purple;
+  overflow: hidden;
+}
+.slider div img{
+  height: 75vh;
+  width: 60vw;
+  background-size: cover;
+}
+.slider div{
+  transition: all .5s ease-in-out
+}
+.slider:hover > div{
+  transform: translateX(-60vw);
+}
+
+/* Projects Page CSS ends  */
