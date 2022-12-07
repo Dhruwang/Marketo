@@ -154,5 +154,16 @@ body{
 .hidden{
   display: none;
 }
-
+@media (max-width: 1250px) {
+  .slider{
+    width: 100%;
+  }
+  .title{
+    font-size: 4rem;
+  }
+  .slider:hover .carouselText{
+    transform: translateY(-25%);
+    font-size: 1rem;
+  }
+}
 /* Projects Page CSS ends  */
