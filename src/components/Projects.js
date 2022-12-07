@@ -19,7 +19,7 @@ export default function Projects() {
                                 />
                                 <Carousel.Caption className='carouselText'>
                                     <h3>Project 1</h3>
-                                    <p className='fs-3'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    <p className='fs-4'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                     <p className='hidden'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -31,7 +31,7 @@ export default function Projects() {
                                 />
                                 <Carousel.Caption className='carouselText'>
                                     <h3>Project 2</h3>
-                                    <p className='fs-3'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    <p className='fs-4'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                     <p className='hidden'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -43,7 +43,7 @@ export default function Projects() {
                                 />
                                 <Carousel.Caption className='carouselText'>
                                     <h3>Project 3</h3>
-                                    <p className='fs-3'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    <p className='fs-4'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                     <p className='hidden'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                 </Carousel.Caption>
                             </Carousel.Item>

@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Numbers from './components/Numbers';
+import About from './components/About';
+import Clients from './components/Clients';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Services />
       <Projects />
       <Numbers />
+      <About />
+      <Clients />
     </div>
   );
 }
