@@ -13,7 +13,7 @@ export default function Navbar() {
                         <div class="navbar-nav">
                             <a class="nav-link fs-5 mx-2" aria-current="page" href="#home">Home</a>
                             <a class="nav-link fs-5 mx-2" href="#services">Services</a>
-                            <a class="nav-link fs-5 mx-2" href="/">Projects</a>
+                            <a class="nav-link fs-5 mx-2" href="#projects">Projects</a>
                             <a class="nav-link fs-5 mx-2" href='/'>About</a>
                             <a class="nav-link fs-5 mx-2" href='/'>Clients</a>
                             <a class="nav-link fs-5 mx-2" href='/'>Contact</a>

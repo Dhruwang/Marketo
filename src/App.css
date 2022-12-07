@@ -1,13 +1,12 @@
+
 .App {
   text-align: center;
+  background-color: #191a1c;
 }
 body{
   margin: 0;
   padding: 0;
-  background-color: #191a1c;
 }
-
-
 
 .App-logo {
   height: 40vmin;
@@ -88,6 +87,7 @@ body{
 .servicesMain p{
   color: rgb(192, 192, 192);
   margin-bottom: 0;
+  
 }
 .OutlineTitle{
   color: transparent;
@@ -120,34 +120,39 @@ body{
 .serviceCard:hover > * {
   color: #191a1c;
 }
-@media only screen and (max-width: 990px) {
-  .serviceCard {
-    width: 75vw;
-  }
-}
+
 /* Services Page CSS ends  */
 
 /* Projects Page CSS starts  */
 .projects{
   height: 100vh;
+  background-color: #191a1c;
 }
 .slider{
 
-  height: 75vh;
-  width: 60vw;
-  border: 2px solid purple;
-  overflow: hidden;
+  height: 80vh;
+  width: 75vw;
+  box-shadow: 10px 10px 10px black;
 }
 .slider div img{
-  height: 75vh;
-  width: 60vw;
-  background-size: cover;
+  height: 80vh;
+  z-index: -1;
 }
-.slider div{
-  transition: all .5s ease-in-out
+.carouselText{
+  transition: all 0.2s ease-in-out;
 }
-.slider:hover > div{
-  transform: translateX(-60vw);
+.slider:hover .carouselText{
+  transform: translateY(-25%);
+  font-size: 1.5rem;
+}
+.slider:hover .cimg{
+  opacity: 0.4;
+}
+.slider:hover .hidden{
+  display: block;
+}
+.hidden{
+  display: none;
 }
 
 /* Projects Page CSS ends  */
