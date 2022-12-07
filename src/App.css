@@ -49,6 +49,7 @@ body{
 /* Navbar CSS starts  */
 .navbar{
   background-color: transparent;
+  position: absolute;
 }
 .navbar-nav , .navbar-brand {
   font-family: RobotoBold , serif;
@@ -167,3 +168,27 @@ body{
   }
 }
 /* Projects Page CSS ends  */
+/* Numbers CSS starts  */
+.num{
+  border: 2px solid white;
+  margin: 2rem;
+  height: 15rem;
+  border-bottom: 1rem solid white;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-family: RobotoBold , serif;
+  transition: all 0.2s ease-in-out;
+}
+.num:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+.numCount{
+  font-size: 3rem;
+}
+/* Numbers CSS ends  */

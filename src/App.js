@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Services from './components/Services';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Numbers from './components/Numbers';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Services />
       <Projects />
+      <Numbers />
     </div>
   );
 }
