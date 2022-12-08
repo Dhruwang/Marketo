@@ -11,7 +11,7 @@ export default function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link fs-5 text-light mx-2" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link fs-5 text-light mx-2"  href="#home">Home</a>
                             <a class="nav-link fs-5 text-light mx-2" href="#services">Services</a>
                             <a class="nav-link fs-5 text-light mx-2" href="#projects">Projects</a>
                             <a class="nav-link fs-5 text-light mx-2" href='#about'>About</a>

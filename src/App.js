@@ -8,6 +8,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Numbers from './components/Numbers';
 import About from './components/About';
 import Clients from './components/Clients';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Numbers />
       <About />
       <Clients />
+      <Contact />
     </div>
   );
 }
