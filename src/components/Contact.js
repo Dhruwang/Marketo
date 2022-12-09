@@ -25,6 +25,7 @@ export default function Contact() {
                     <div className='formInputDiv my-4 col-md-10'>
                     <input type="text" id="enquiry" name="enquiry" placeholder='Enquiry'/>
                     </div>
+                    <button className='button col-md-3'>Submit</button>
                 </div>
             </form>
         </div>
