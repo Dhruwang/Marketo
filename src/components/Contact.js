@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
     return (
         <>
-        <div className='container contactForm'>
+        <div className='container contactForm' id='contact'>
             <h1 className='OutlineTitle rofontbotoBold mb-4'>GET IN TOUCH</h1>
             <form>
                 <div className='formMain row justify-content-around'>

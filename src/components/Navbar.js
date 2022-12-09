@@ -16,7 +16,7 @@ export default function Navbar() {
                             <a class="nav-link fs-5 text-light mx-2" href="#projects">Projects</a>
                             <a class="nav-link fs-5 text-light mx-2" href='#about'>About</a>
                             <a class="nav-link fs-5 text-light mx-2" href='#clients'>Clients</a>
-                            <a class="nav-link fs-5 text-light mx-2" href='/'>Contact</a>
+                            <a class="nav-link fs-5 text-light mx-2" href='#contact'>Contact</a>
                         </div>
                     </div>
                 </div>
