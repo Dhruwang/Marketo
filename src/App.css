@@ -169,6 +169,11 @@ body{
   .homeMain h1{
     font-size: 4rem;
   }
+  .homeMain{
+    height: 100vh;
+    background-image: url(./images/cover-mobile.jpg);
+    background-size: cover;
+  }
   .slider:hover .carouselText{
     transform: translateY(-25%);
     font-size: 0.5rem;
@@ -335,3 +340,8 @@ input:focus{
 
 
 /* ContactPage CSS ends  */
+@media (max-width: 500px) {
+  .OutlineTitle{
+    font-size: 3rem;
+  }
+}
